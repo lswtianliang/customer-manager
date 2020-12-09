@@ -7,7 +7,7 @@
 
 - 采用领域模型，极简设计，高内聚低耦合的架构设计。
 - 文件夹组织采用扁平化思路，少用文件夹，避免嵌套层次过深，相关代码放在一起，修改代码时不用到处找目录。
-- redux中的相关的 action 和 reducer放在一起文件中，拆分复杂度，适合多人开发统一个页面的不同function。
+- redux中的相关的 action 和 reducer放在一个文件中，而不是一个页面模块的所有actions和reducers藕合在一起，拆分复杂度，适合多人开发统一个页面的不同function，减少代码冲突。
 - 约定大于配置。
 
 ## 安装
@@ -31,7 +31,7 @@ typescript+react+redux+webpack+babel+eslint
 
 - components 主要是为了遵从react一切皆组件的理念，它类似领域设计容器。
 
-- redux 为状态管理的目录
+- redux 为状态管理的目录，它从属于每一个模块（feature）。
 
 - services 为调用graphQL接口的目录。
 
