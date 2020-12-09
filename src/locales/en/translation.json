@@ -1,0 +1,30 @@
+{
+  "button": {
+    "search": "Search",
+    "create": "New",
+    "delete": "Delete",
+    "update": "Update",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "title": {
+    "header": "Customer Management System",
+    "createCustomer": "New Customer",
+    "updateCustomer": "Edit Customer"
+  },
+  "customer": {
+    "name": "Customer Name",
+    "id": "Customer ID",
+    "phoneNumber": "Phone Number",
+    "address": "Address",
+    "operate": "Operate"
+  },
+  "message": {
+    "inputPlaceholder": "Please Enter",
+    "selectPlaceholder": "Please Select",
+    "saveSuccess": "Save Successfully. ",
+    "deleteSuccess": "Delete Successfully",
+    "deleteConfirm": "Will you delete this customer?"
+  }
+}
